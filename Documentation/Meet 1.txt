@@ -1,0 +1,33 @@
+* General process of Manufacturing industry.
+
+Raw Material -->  Production -->  Final Product --> Sale
+
+Step 1: Marketing team Finds nearby Vendors Through Personel Contacts or Online Mode for Raw Material.
+
+Step 2: Contacting Vendors & Finalizing The Quality, Quantity & Price of Raw Material.
+
+Step 3: After finalizing Company gives PO (Purchase order) to vendor for raw material.
+
+Step 4: Vendor receives PO and Transports the required raw material with its Tax Invoice to company.
+
+Step 5: Company receives raw material.Quality team verify the quality of material.
+		If quality is not matched then raw material & Tax Invoice are returned.
+
+Step 6: Company process raw material to final product.
+
+Step 7: Consider Tata Motors as comsumer of final product of above company.
+		Tata Motors Gives PO(Purchase order) to our Company for delivery  of final product.
+
+Step 8: Company transports the final product (Quantity & Quality mentioned in PO) and Tax Invoice to Tata Motors.
+
+Step 9: Same Process as above.
+		Tata Motors receives final product.Quality team verify the quality of material.
+		If quality is not matched then product & Tax Invoice are returned.
+
+Step 10: The Product which is returned or rejected comes back to company With Tax Invoice.
+
+
+	During this process since company has variety of raw material from many vendors + many products to deliver to many customers.
+	So it is very hard to trace and differentiate the orders (ie purchase order , Sell order or rejected order).
+	
+
