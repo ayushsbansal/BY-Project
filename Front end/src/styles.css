@@ -1,0 +1,14 @@
+
+body{
+    box-sizing: border-box;
+    background-color: darkorchid;
+}
+
+div.jumbotron{
+    margin-top: 50px;
+    background-color: azure;
+}
+
+h1{
+    text:white;
+}
