@@ -9,6 +9,7 @@ div.jumbotron{
     background-color: azure;
 }
 
-h1{
-    text:white;
+button{
+    text:white; 
+    margin-left: 30px;
 }
