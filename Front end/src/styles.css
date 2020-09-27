@@ -2,11 +2,14 @@
 body {
     box-sizing: border-box;
     /*background-color: black;*/
+    background-color: #89cff0;
 }
 
 div.jumbotron{
     margin-top: 50px;
     background-color: azure;
+    opacity: 0.91;
+
 }
 
 button{

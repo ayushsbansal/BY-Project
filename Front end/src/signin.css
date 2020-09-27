@@ -5,6 +5,7 @@ body {
 
 body {
   display: -ms-flexbox;
+  background-color: #89cff0;
   display: flex;
   -ms-flex-align: center;
   align-items: center;
@@ -17,6 +18,9 @@ body {
     background-color: azure;
     max-width: 50%;
     padding-bottom: 20px;
+    opacity: 0.91;            
+
+
 
 }
 .form-signin {
