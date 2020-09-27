@@ -1,6 +1,8 @@
-<!doctype html>
+<!doctype html >
 <html lang="en">
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -8,9 +10,10 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="./signin.css" rel="stylesheet">
+    
   </head>
 
-  <body class="text-center">
+  <body class="text-center" id="sidjs">
       
   <div class="container">
     <h1 class="display-12"> Jaggery Traceability Application </h1>
@@ -46,4 +49,20 @@
     </form>
     </div>
 </body>
+<script>
+    VANTA.WAVES({
+      el: "#sidjs",
+      mouseControls: true,
+      touchControls: false,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      shininess: 45.00,
+      waveHeight: 10.00,
+      waveSpeed: 0.50,
+      zoom: 0.7
+    })
+    </script>
 </html>
