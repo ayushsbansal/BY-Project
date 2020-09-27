@@ -17,14 +17,20 @@
   <div class="container">
     <h1 class="display-12"> Jaggery Traceability Application </h1>
     <form class="form-signin">
-        <h1 class="h2 mb-3 font-weight-normal">Please sign in</h1>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <br/> <br/>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>   
-
-        <button class="btn btn-lg btn-primary btn-block"  onClick="location.href='options.html'" type="submit" id="login-btn">Sign In</button>
+        <h1 class="h2 mb-3 font-weight-normal">Update Status</h1>
+        <label for="product-id" class="sr-only">Product ID</label>
+        <input type="number" id="product-id" class="form-control" placeholder="Product ID" required autofocus>
+        <br/>
+        <label for="role-select" class="text-align-left"><b>Next Actor</b></label>
+        <select class="form-control" id="role-select">
+            <option>Dispatcher</option>
+            <option>Transporter</option>
+            <option>Distributor</option>
+            <option>Wholesaler</option>
+            <option>Retailer</option>
+        </select>
+        <br />
+        <button class="btn btn-lg btn-primary btn-block"  onClick="location.href='options.html'" type="submit" id="update-btn">Update Status</button>
     </form>
     </div>
 </body>

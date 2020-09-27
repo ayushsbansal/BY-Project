@@ -19,7 +19,7 @@ body {
     max-width: 50%;
     padding-bottom: 20px;
     opacity: 0.91;            
-
+    max-height: fit-content;
 
 
 }
