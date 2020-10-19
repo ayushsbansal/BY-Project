@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jaggery Traceability</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="./signin.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
+
+  </head>
+
+  <body class="text-center" id="sidjs">
+      
+  <div class="container">
+    <h1 class="display-12"> Jaggery Traceability Application </h1>
+    <form class="form-signin">
+        <h1 class="h2 mb-3 font-weight-normal">Update Status</h1>
+        <label for="product-id" class="sr-only">Product ID</label>
+        <input type="number" id="product-id" class="form-control" placeholder="Product ID" required autofocus>
+        <br/>
+        <label for="role-select" class="text-align-left"><b>Next Actor</b></label>
+        <select class="form-control" id="role-select">
+            <option>Dispatcher</option>
+            <option>Transporter</option>
+            <option>Distributor</option>
+            <option>Wholesaler</option>
+            <option>Retailer</option>
+        </select>
+        <br />
+        <button class="btn btn-lg btn-primary btn-block" type="submit" id="update-btn"><a href="updatestatus.html">Update Status</a></button>
+    </form>
+    </div>
+</body>
+<script>
+    VANTA.WAVES({
+      el: "#sidjs",
+      mouseControls: true,
+      touchControls: false,
+      gyroControls: false,
+      minHeight: 750.00,
+      minWidth: 1170.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      shininess: 45.00,
+      waveHeight: 10.00,
+      waveSpeed: 0.50,
+      zoom: 0.7
+    })
+    </script>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Jaggery Traceability</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="./signin.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
+  </head>
+
+  <body class="text-center" id="sidjs">
+      
+  <div class="container">
+    <h1 class="display-12"> Jaggery Traceability Application </h1>
+    <form class="form-signin">
+        <h1 class="h2 mb-3 font-weight-normal">Please Register</h1>
+        <label for="Name" class="sr-only">Name</label>
+        <input type="text" id="Name" class="form-control" placeholder="Name" required autofocus>  
+        <br/>
+        <label for="Phone-number" class="sr-only">Password</label>
+        <input type="number" id="Phone-number" class="form-control" placeholder="Phone Number" required>  
+        <br/>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required >
+        <br/>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>  
+        <br/>
+        <label for="confirm-inputPassword" class="sr-only">Confirm Password</label>
+        <input type="password" id="confirm-inputPassword" class="form-control" placeholder="Confirm Password" required>  
+
+        <br/>
+        <label for="role-select" class="text-align-left"><b>Select your Role </b></label>
+        <select class="form-control" id="role-select">
+            <option>Manufacturer</option>
+            <option>Dispatcher</option>
+            <option>Transporter</option>
+            <option>Distributor</option>
+            <option>Wholesaler</option>
+            <option>Retailer</option>
+        </select>
+
+        <button class="btn btn-lg btn-success btn-block" type="submit" id="login-btn"><a href="updatestatus.html">Update Status</a></button>
+    </form>
+    </div>
+</body>
+<script>
+    VANTA.WAVES({
+      el: "#sidjs",
+      mouseControls: true,
+      touchControls: false,
+      gyroControls: false,
+      minHeight: 750.00,
+      minWidth: 1170.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      shininess: 45.00,
+      waveHeight: 10.00,
+      waveSpeed: 0.50,
+      zoom: 0.7
+    })
+    </script>
+</html>

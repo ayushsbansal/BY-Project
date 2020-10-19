@@ -1,0 +1,58 @@
+<!DOCTYPE HTML id="vantajs" >
+<html id="vantajs"  >
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Jaggery Traceability</title>
+        <meta name="viewport" content="device=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" size="16*16" href="https://cdn1.iconfinder.com/data/icons/web-development-2-9/48/83-512.png" type="image/png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+        <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
+        
+    </head>
+
+    <body >  
+        <div class="container">
+           <div class="jumbotron">
+                <h4 class="display-7 text-center"> This application provides the Traceability for Jaggery in Supply Chain.</h4>
+                <br/> <br/>
+                <p class="lead text-center"><b>This application is built over Blockchain, specifically Multichain for providing trust between actors,
+                    immutability and tamper-proof environment.</b></p>
+                <hr class="my-4">
+                <div class="col text-center">
+                    <button class="btn btn-success btn-lg" id="add-prod-btn" role="button"><a href="addproduct.html">Add Product</a></button>
+                    <button class="btn btn-success btn-lg" id="register-btn"><a href="updatestatus.html">Update Status</a></button>
+                    <button class="btn btn-success btn-lg" id="track-btn"> Track your Product</button>
+                </div>
+              </div>
+            
+        </div>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script>
+    VANTA.WAVES({
+      el: "#vantajs",
+      mouseControls: true,
+      touchControls: false,
+      gyroControls: false,
+      minHeight: 750.00,
+      minWidth: 1170.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      shininess: 45.00,
+      waveHeight: 10.00,
+      waveSpeed: 0.50,
+      zoom: 0.7
+    })
+    </script>
+
+</html>
+
+
